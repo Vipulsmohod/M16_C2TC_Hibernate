@@ -1,4 +1,4 @@
-package com.tns.inheritance2;
+package com.cg.inheritance1;
 
 
 

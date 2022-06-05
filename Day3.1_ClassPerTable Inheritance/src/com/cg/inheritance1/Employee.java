@@ -1,16 +1,7 @@
-package com.tns.inheritance2;
+package com.cg.inheritance1;
 
+import javax.persistence.*;
 
-
-import java.io.Serializable;
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
-import javax.persistence.Table;
 @Entity
 @Table(name="Employee2")
 @Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)
@@ -45,6 +36,5 @@ public class Employee implements Serializable
 		
 }
 	
-
 
 
